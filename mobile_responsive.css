@@ -1,0 +1,15 @@
+.skill-box {
+    flex-wrap: wrap;
+}
+
+.contact iframe {
+    width: 100%;
+}
+
+.wrap4 .contact-me {
+    margin: 10px 0;
+}
+
+.footer-bottom .d-flex {
+    flex-wrap: wrap;
+}  
