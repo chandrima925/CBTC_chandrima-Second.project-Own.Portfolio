@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Keania+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+.menu-bar .sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2b2b2b;
+  z-index: 999;
+  padding-block: 0.4rem;
+  transition: all 0.5s ease-in-out;
+}
+
 .menu-bar .logo img {
   width: 60px;
 }
@@ -187,12 +198,6 @@
   padding: 100px 0;
   border-bottom: #cacaca 1px solid;
 }
-.banner img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 .banner .display-3 {
   font-weight: 700;
   color: #458b99;
@@ -267,6 +272,9 @@
   margin-bottom: 20%;
   transform: translate(0px, 5px);
 }
+.banner3 .qualification-board {
+  justify-content: space-evenly;
+}
 .banner3 .dot {
   width: 15px;
   height: 15px;
@@ -307,7 +315,7 @@
 }
 .skills .container .skill-section .content1 {
   background-color: #242424;
-  width: 100%;
+  width: 33.33%;
 }
 .skills .container .skill-section .content1 h5 {
   font-weight: 600;
@@ -370,6 +378,7 @@
   background-image: linear-gradient(to right, #88D9E6, #0C7489);
   border-radius: 0 10px 100px;
   box-shadow: 0px 5px 10px rgba(46, 46, 46, 0.089);
+  width: 100%;
 }
 
 .contact h1 {

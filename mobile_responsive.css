@@ -12,4 +12,20 @@
 
 .footer-bottom .d-flex {
     flex-wrap: wrap;
-}  
+}
+
+.banner3 .qualification-board {
+    justify-content: center;
+}
+
+.skills .container .skill-section .content1 {
+    width: 100%;
+}
+
+.banner3 h2 {
+    width: 85%;
+}
+
+.banner .row {
+    flex-wrap: wrap;
+}

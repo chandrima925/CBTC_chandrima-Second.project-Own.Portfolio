@@ -6,9 +6,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 // font-family: 'Montserrat', sans-serif;
-  
+.menu-bar .sticky{
+    // position: fixed;
+    // width: 100%;
+    // z-index: 2;
+    // border-bottom: #cacaca 1px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2b2b2b;
+    z-index: 999;
+    padding-block: 0.4rem;
+    transition: all 0.5s ease-in-out;
+}
 .menu-bar {
-
+    
     .logo {
         img {
             width: 60px;
@@ -238,11 +251,11 @@
     padding: 100px 0;
     border-bottom: #cacaca 1px solid;
 
-    img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
+    // img {
+    //     height: 100%;
+    //     width: 100%;
+    //     object-fit: cover;
+    // }
 
     .display-3 {
         font-weight: 700;
@@ -331,6 +344,10 @@
         transform: translate(0px, 5px);
     }
 
+    .qualification-board {
+        justify-content: space-evenly;
+    }
+
     .dot {
         width: 15px;
         height: 15px;
@@ -378,7 +395,7 @@
 
             .content1 {
                 background-color: #242424;
-                width: 100%;
+                width: 33.33%;
 
                 h5 {
                     font-weight: 600;
@@ -458,6 +475,7 @@
     background-image: linear-gradient(to right, #88D9E6, #0C7489);
     border-radius: 0 10px 100px;
     box-shadow: 0px 5px 10px rgba(46, 46, 46, 0.089);
+    width: 100%;
 }
 
 .contact {

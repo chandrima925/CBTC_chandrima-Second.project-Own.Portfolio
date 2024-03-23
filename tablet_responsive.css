@@ -1,16 +1,36 @@
  .skill-box {
-    flex-wrap: wrap;
-}
+     flex-wrap: wrap;
+     justify-content: center;
+ }
 
-.contact iframe {
-    width: 100%;
-}
+ .contact iframe {
+     width: 100%;
+ }
 
-.wrap4 .contact-me {
-    margin: 10px 0;
-}
+ .contact .row {
+     flex-wrap: wrap;
+ }
 
-.footer-bottom .d-flex {
-    flex-wrap: wrap;
-}
- 
+ .wrap4 .contact-me {
+     margin: 10px 0;
+ }
+
+ .footer-bottom .d-flex {
+     flex-wrap: wrap;
+ }
+
+ .banner3 .qualification-board {
+     justify-content: center;
+ }
+
+ .skills .container .skill-section .content1 {
+     width: 48%;
+ }
+
+ .banner3 h2 {
+     width: 85%;
+ }
+
+ .banner .row {
+     flex-wrap: wrap;
+ }
